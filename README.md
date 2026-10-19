@@ -1,77 +1,138 @@
-LouShop – فروشگاه اینترنتی (ASP.NET Core)
-LouShop یک پروژه فروشگاهی تحت وب است که به‌عنوان پروژه پایانی دانشگاه و همچنین نمونه‌کار (Portfolio) توسعه داده شده است.
-هدف اصلی این پروژه نمایش توانمندی‌های پایه تا متوسط در توسعه بک‌اند و فرانت‌اند با استفاده از ASP.NET Core MVC و Entity Framework Core است.
-این پروژه عمداً با معماری مونولیتیک پیاده‌سازی شده تا تمرکز اصلی بر مفاهیم هسته‌ای، ساختار MVC، و ارتباط با پایگاه داده باشد و در عین حال قابلیت ارتقا به معماری‌های پیشرفته‌تر را داشته باشد.
-________________________________________
-📌 معرفی پروژه
-•	نوع پروژه: پروژه پایانی دانشگاه / نمونه‌کار رزومه‌ای
-•	دامنه پروژه: فروشگاه اینترنتی
-•	معماری: Monolithic
-•	الگوی طراحی: MVC (Model–View–Controller)
-________________________________________
-🧱 معماری و ساختار
-•	ASP.NET Core MVC
-•	Entity Framework Core (Code First)
-•	ارتباط با دیتابیس از طریق LINQ
-•	SQL Server به‌عنوان پایگاه داده رابطه‌ای
-•	استفاده از View و Partial View برای ساختار کامپوننت‌محور رابط کاربری
-ساختار پروژه به‌گونه‌ای طراحی شده که در آینده قابلیت: - جداسازی لایه‌ها (Clean / Layered Architecture) - افزودن Web API - توسعه فرانت‌اند جداگانه را داشته باشد.
-________________________________________
-🛠 تکنولوژی‌ها و ابزارها
-Backend
-•	.NET Core 9
-•	ASP.NET Core MVC
-•	Entity Framework Core
-•	LINQ
-•	SQL Server
-Frontend
-•	HTML5
-•	CSS3
-•	JavaScript
-•	Bootstrap
-•	jQuery (در حد محدود)
-________________________________________
-✨ امکانات پیاده‌سازی‌شده
-•	ساختار استاندارد MVC
-•	اتصال به دیتابیس با EF Core
-•	عملیات CRUD پایه
-•	رندر سمت سرور با Razor View
-•	رابط کاربری ریسپانسیو با Bootstrap
-•	اعتبارسنجی اولیه داده‌ها
-________________________________________
-🚀 برنامه‌های توسعه آینده
-•	بهینه‌سازی ساختار کد و معماری
-•	جداسازی لایه‌های Domain / Application / Infrastructure
-•	افزودن احراز هویت و سطح دسترسی
-•	پیاده‌سازی API
-•	بهبود UI/UX
-•	افزایش تست‌پذیری پروژه
-________________________________________
-⚙️ راه‌اندازی پروژه
-پیش‌نیازها
-•	.NET SDK 9
-•	SQL Server
-مراحل اجرا
-1.	کلون کردن پروژه:
- 	git clone https://github.com/your-username/LouShop.git
-2.	تنظیم Connection String در فایل:
- 	appsettings.json
-3.	اجرای مایگریشن و ساخت دیتابیس:
- 	dotnet ef database update
-4.	اجرای پروژه:
- 	dotnet run
-________________________________________
-🎓 هدف آموزشی
-این پروژه با هدف: - تمرین توسعه وب با ASP.NET Core - درک عمیق‌تر الگوی MVC - کار عملی با EF Core و دیتابیس رابطه‌ای - ارائه به‌عنوان نمونه‌کار برای استخدام
-توسعه داده شده است.
-________________________________________
-👤 توسعه‌دهنده
-ذکیه عشوری
-توسعه‌دهنده جونیور ASP.NET Core
-ASP.NET Core MVC • Entity Framework Core • SQL Server
-🔗 لینکدین: https://www.linkedin.com/in/zakie-ashoori-8a5389264
-📍 ایران
-پروژه پایانی دانشگاه / نمونه‌کار رزومه‌ای
-________________________________________
-📄 لایسنس
-این پروژه صرفاً جهت اهداف آموزشی و رزومه‌ای توسعه داده شده است.
+# LouShop – Online Store (ASP.NET Core)
+
+LouShop is a web-based ecommerce application developed as a university graduation project and a portfolio project. Its main purpose is to demonstrate foundational to intermediate skills in backend and frontend web development using ASP.NET Core MVC and Entity Framework Core.
+
+The project follows a **monolithic architecture**, allowing the focus to remain on core web development concepts, the MVC design pattern, and database integration, while maintaining the potential for future architectural improvements.
+
+---
+
+## 📌 Project Overview
+
+- **Project Type:** University Graduation Project / Portfolio Project
+- **Domain:** Ecommerce
+- **Architecture:** Monolithic
+- **Design Pattern:** MVC (Model–View–Controller)
+
+---
+
+## 🧱 Architecture and Structure
+
+The project is built using the following technologies and concepts:
+
+- ASP.NET Core MVC
+- Entity Framework Core (Code First)
+- LINQ for database queries and data manipulation
+- SQL Server as the relational database
+- Razor Views and Partial Views for reusable UI components
+
+The project structure provides a foundation for potential future enhancements, including:
+
+- Separating application layers using Clean Architecture or Layered Architecture
+- Adding Web API endpoints
+- Integrating a separate frontend application
+
+---
+
+## 🛠 Technologies and Tools
+
+### Backend
+- .NET 9
+- ASP.NET Core MVC
+- Entity Framework Core
+- LINQ
+- SQL Server
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- jQuery (basic usage)
+
+---
+
+## ✨ Implemented Features
+
+- Standard MVC application structure
+- Database integration using Entity Framework Core
+- Basic CRUD (Create, Read, Update, Delete) operations
+- Server-side rendering with Razor Views
+- Responsive user interface using Bootstrap
+- Basic data validation
+
+---
+
+## 🚀 Future Improvements
+
+Planned enhancements include:
+
+- Improving code quality and application architecture
+- Separating the application into Domain, Application, and Infrastructure layers
+- Implementing authentication and role-based authorization
+- Adding Web API endpoints
+- Improving UI/UX
+- Enhancing testability and maintainability
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+- .NET 9 SDK
+- SQL Server
+
+### Installation and Setup
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/your-username/LouShop.git
+```
+
+**2. Configure the database connection**
+
+Update the connection string in `appsettings.json` to match your SQL Server configuration.
+
+**3. Apply database migrations**
+
+```bash
+dotnet ef database update
+```
+
+**4. Run the application**
+
+```bash
+dotnet run
+```
+
+---
+
+## 🎓 Learning Objectives
+
+This project was developed to:
+
+- Practice web application development with ASP.NET Core
+- Gain practical experience with the MVC design pattern
+- Work with Entity Framework Core and relational databases
+- Develop practical backend and frontend web development skills
+- Build a portfolio project for junior developer job applications
+
+---
+
+## 👤 Developer
+
+**Zakiye Ashoori**  
+Junior ASP.NET Core Developer
+
+**Technical Skills:** ASP.NET Core MVC · Entity Framework Core · SQL Server
+
+- **LinkedIn:** [Zakiye Ashoori](https://www.linkedin.com/in/zakie-ashoori/)
+- **Location:** Iran
+- **Project Type:** University Graduation Project / Portfolio Project
+
+---
+
+## 📄 License
+
+This project was developed for educational and portfolio purposes.
