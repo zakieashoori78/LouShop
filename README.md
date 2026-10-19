@@ -87,7 +87,7 @@ Planned enhancements include:
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/LouShop.git
+git clone https://github.com/zakieashoori78/LouShop.git
 ```
 
 **2. Configure the database connection**
